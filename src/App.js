@@ -66,7 +66,7 @@ class App extends React.Component<Props> {
   handleBoardReset = () => {
     this.props.resetBoard();
     this.props.populateBoard();
-  }
+  };
 
   render() {
     const playerWon =
@@ -75,7 +75,9 @@ class App extends React.Component<Props> {
 
     return (
       <Wrapper>
-        <MainHeader>Find the Pair</MainHeader>
+        <MainHeader>
+          <span />Find the Pair<span />
+        </MainHeader>
         <h4 style={{ color: 'var(--dust)', fontSize: '2rem' }}>
           Tries: {this.props.noTries} :: Matched: {this.props.noMatched}
         </h4>
