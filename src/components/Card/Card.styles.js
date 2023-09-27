@@ -108,7 +108,7 @@ export const Back = styled.div`
   ${Face} :after {
     content: '?';
 
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-weight: initial;
 
     @media (min-width: 600px) {
@@ -121,7 +121,7 @@ export const Back = styled.div`
 export const Front = styled.div`
   ${Face}
   background-image: url("${p => p.image}");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotateY(180deg);

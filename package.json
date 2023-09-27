@@ -1,6 +1,7 @@
 {
-  "name": "find-the-pair",
+  "name": "NutriMemoria",
   "version": "0.1.0",
+  "homepage": "https://raeioul.github.io/nutrimemoria",
   "private": true,
   "dependencies": {
     "lodash": "^4.17.10",
@@ -13,6 +14,8 @@
     "styled-components": "^3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

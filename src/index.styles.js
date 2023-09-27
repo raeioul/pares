@@ -4,8 +4,8 @@ export default css`
   @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lobster');
 
   :root {
-    --mango: #ffbe00;
-    --dark-mango: #d8a100;
+    --mango: #2ea3dd;
+    --dark-mango: #272e68;
     --dust: #666;
   }
 

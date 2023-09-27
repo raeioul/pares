@@ -29,7 +29,7 @@ export const SuccessWrapper = styled.div`
   align-items: center;
   max-width: 550px;
   text-align: center;
-  background: #fff;
+  background: #b9dff8;
   padding: 5rem;
   border-radius: 5px;
   z-index: 1;
@@ -49,7 +49,7 @@ export const SuccessWrapper = styled.div`
 `;
 
 export const Success = styled.h2`
-  color: #f00;
+  color: #272e68;
   font-size: 10rem;
   margin: 2rem;
 `;

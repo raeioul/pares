@@ -17,9 +17,9 @@ const SuccessModal = (props: Props) => {
     <Wrapper>
       <Backdrop />
       <SuccessWrapper>
-        <Success>You Won!</Success>
+        <Success>¡GANASTE!</Success>
         <SuccessButton type="submit" onClick={props.resetBoard}>
-          Play Again!
+          ¡Otra Vez!
         </SuccessButton>
       </SuccessWrapper>
     </Wrapper>
